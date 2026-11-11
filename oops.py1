@@ -1,0 +1,11 @@
+class car:
+   def __init__(self,brand,color,price):
+       self.brand=brand
+       self.color=color
+       self.price=price
+car1 = car ("bmw","black",50000000)
+car2 = car ("audi","white",4000000)
+car3 = car ("toyota","red",2000000)
+print(car1.brand,car1.color,car1.price)
+print(car2.brand,car2.color,car2.price)
+print(car3.brand,car3.color,car3.price)

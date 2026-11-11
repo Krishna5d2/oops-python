@@ -1,0 +1,15 @@
+class mobile:
+    def __init__(self,name,price,ram):
+       self.name=name
+       self.price=price
+       self.ram=ram
+    def display(self):
+       print("mobile name :",self.name)
+       print("mobile price :",self.price)
+       print("mobile ram :",self.ram)
+m1 = mobile("vivo", "30k", "12gb")
+m2 = mobile("google", "50k", "16gb")
+m3 = mobile("oppo", "60k", "12gb")
+m1.display()
+m2.display()
+m3.display()          
